@@ -1,30 +1,34 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace ArquivoBaseBootcamp.Services
 {
-    public class BootCampServices : IBootCampServices
+    public class InteresseService : IInteresseService
     {
-        public string ConsultarInteressada()
+        public object ConsultarPorEmail()
         {
             throw new NotImplementedException();
         }
 
-        public string ConsultarTodasInteressadas()
+        public List<object> ConsultarTodos()
         {
             throw new NotImplementedException();
         }
 
-        public string CadastrarInteressada()
+        // Obrigatorio nome E email
+        // Validar email
+        // Nao permitir email duplicado
+        public object Incluir()
         {
             throw new NotImplementedException();
         }
 
-        public string AtualizarInteressada()
+        public object AtualizarEmail()
         {
             throw new NotImplementedException();
         }
 
-        public bool ExcluirInteressada()
+        public bool ExcluirPorEmail()
         {
             throw new NotImplementedException();
         }

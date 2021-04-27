@@ -34,7 +34,7 @@ namespace ArquivoBaseBootcamp
                 c.IncludeXmlComments(xmlPath);
             });
 
-            services.AddSingleton<IBootCampServices, BootCampServices>();
+            services.AddSingleton<IInteresseService, InteresseService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
